@@ -4,19 +4,19 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Classes &mdash; fpclib 1.8.1 documentation</title>
+  <title>Classes &mdash; fpclib 1.8.2.1 documentation</title>
       <link rel="stylesheet" type="text/css" href="static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="static/css/theme.css?v=19f00094" />
       <link rel="stylesheet" type="text/css" href="static/core.css?v=eabd22f1" />
 
-
+  
   <!--[if lt IE 9]>
     <script src="static/js/html5shiv.min.js"></script>
   <![endif]-->
-
+  
         <script src="static/jquery.js?v=5d32c60e"></script>
         <script src="static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="static/documentation_options.js?v=1166ed6b"></script>
+        <script src="static/documentation_options.js?v=eb2f4e1f"></script>
         <script src="static/doctools.js?v=9a2dae69"></script>
         <script src="static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="static/core.js?v=9718e420"></script>
@@ -25,17 +25,17 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="About" href="about.html" />
-    <link rel="prev" title="Globals" href="globals.html" />
+    <link rel="prev" title="Globals" href="globals.html" /> 
 </head>
 
-<body class="wy-body-for-nav">
+<body class="wy-body-for-nav"> 
   <div class="wy-grid-for-nav">
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
 
-
-
+          
+          
           <a href="index.html" class="icon icon-home">
             fpclib
           </a>
@@ -132,7 +132,7 @@
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
-
+             
   <section id="classes">
 <h1>Classes<a class="headerlink" href="#classes" title="Link to this heading"></a></h1>
 <nav class="contents local" id="quick-links">
@@ -290,7 +290,7 @@
 </tr>
 </tbody>
 </table>
-<p>You can find the description of each of these tags on the <a class="reference external" href="https://bluemaxima.org/flashpoint/datahub/Curation_Format#Metadata">Curation Format</a> page on the Flashpoint wiki.</p>
+<p>You can find the description of each of these tags on the <a class="reference external" href="https://flashpointarchive.org/datahub/Curation_Format#Metadata">Curation Format</a> page on the Flashpoint wiki.</p>
 </dd></dl>
 
 </section>
@@ -414,7 +414,7 @@
 </ul>
 </dd>
 <dt class="field-even">Seealso<span class="colon">:</span></dt>
-<dd class="field-even"><p>The <a class="reference external" href="https://bluemaxima.org/flashpoint/datahub/Curation_Format#Appendix_II:_Additional_Applications">Additional Applications</a> section of the Curation Format page.</p>
+<dd class="field-even"><p>The <a class="reference external" href="https://flashpointarchive.org/datahub/Curation_Format#Appendix_II:_Additional_Applications">Additional Applications</a> section of the Curation Format page.</p>
 </dd>
 <dt class="field-odd">Note<span class="colon">:</span></dt>
 <dd class="field-odd"><p>Trying to add an additional app with a heading that already exists will result in replacing it.</p>
@@ -437,7 +437,7 @@
 <dd class="field-odd"><p><strong>folder</strong> (<em>str</em>) – The name of the folder the extras are located in.</p>
 </dd>
 <dt class="field-even">Seealso<span class="colon">:</span></dt>
-<dd class="field-even"><p>The <a class="reference external" href="https://bluemaxima.org/flashpoint/datahub/Curation_Format#Extras">Extras</a> section of the Curation Format page.</p>
+<dd class="field-even"><p>The <a class="reference external" href="https://flashpointarchive.org/datahub/Curation_Format#Extras">Extras</a> section of the Curation Format page.</p>
 </dd>
 <dt class="field-odd">Note<span class="colon">:</span></dt>
 <dd class="field-odd"><p>Calling this method more than once will replace the current extras.</p>
@@ -457,7 +457,7 @@
 <dd class="field-odd"><p><strong>message</strong> (<em>str</em>) – The message to add to this curation.</p>
 </dd>
 <dt class="field-even">Seealso<span class="colon">:</span></dt>
-<dd class="field-even"><p>The <a class="reference external" href="https://bluemaxima.org/flashpoint/datahub/Curation_Format#Messages">Messages</a> section of the Curation Format page.</p>
+<dd class="field-even"><p>The <a class="reference external" href="https://flashpointarchive.org/datahub/Curation_Format#Messages">Messages</a> section of the Curation Format page.</p>
 </dd>
 <dt class="field-odd">Note<span class="colon">:</span></dt>
 <dd class="field-odd"><p>Calling this method more than once will replace the current message.</p>
@@ -606,7 +606,7 @@
 <dd><p>Validate this curation to see if it’s metadata is correct.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>rigid</strong> (<em>bool</em>) – If True, this function will make sure this Curation’s metadata is in order with the <a class="reference external" href="https://bluemaxima.org/flashpoint/datahub/Curation_Format#Metadata">Curation Format</a> page. By default, this function checks everything except Tags, Platform, and Application Path. Note that rigid checking will call <a class="reference internal" href="globals.html#fpclib.update" title="fpclib.update"><code class="xref py py-func docutils literal notranslate"><span class="pre">update()</span></code></a> if it has not been called already or failed previously.</p>
+<dd class="field-odd"><p><strong>rigid</strong> (<em>bool</em>) – If True, this function will make sure this Curation’s metadata is in order with the <a class="reference external" href="https://flashpointarchive.org/datahub/Curation_Format#Metadata">Curation Format</a> page. By default, this function checks everything except Tags, Platform, and Application Path. Note that rigid checking will call <a class="reference internal" href="globals.html#fpclib.update" title="fpclib.update"><code class="xref py py-func docutils literal notranslate"><span class="pre">update()</span></code></a> if it has not been called already or failed previously.</p>
 </dd>
 <dt class="field-even">Seealso<span class="colon">:</span></dt>
 <dd class="field-even"><p><a class="reference internal" href="#fpclib.Curation.check_source" title="fpclib.Curation.check_source"><code class="xref py py-func docutils literal notranslate"><span class="pre">Curation.check_source()</span></code></a></p>
@@ -731,7 +731,7 @@
   Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
     <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
     provided by <a href="https://readthedocs.org">Read the Docs</a>.
-
+   
 
 </footer>
         </div>
@@ -742,7 +742,7 @@
       jQuery(function () {
           SphinxRtdTheme.Navigation.enable(true);
       });
-  </script>
+  </script> 
 
 </body>
 </html>

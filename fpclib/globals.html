@@ -4,19 +4,19 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Globals &mdash; fpclib 1.8.1 documentation</title>
+  <title>Globals &mdash; fpclib 1.8.2.1 documentation</title>
       <link rel="stylesheet" type="text/css" href="static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="static/css/theme.css?v=19f00094" />
       <link rel="stylesheet" type="text/css" href="static/core.css?v=eabd22f1" />
 
-
+  
   <!--[if lt IE 9]>
     <script src="static/js/html5shiv.min.js"></script>
   <![endif]-->
-
+  
         <script src="static/jquery.js?v=5d32c60e"></script>
         <script src="static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="static/documentation_options.js?v=1166ed6b"></script>
+        <script src="static/documentation_options.js?v=eb2f4e1f"></script>
         <script src="static/doctools.js?v=9a2dae69"></script>
         <script src="static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="static/core.js?v=9718e420"></script>
@@ -25,17 +25,17 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Classes" href="classes.html" />
-    <link rel="prev" title="Advanced Stuff" href="advanced.html" />
+    <link rel="prev" title="Advanced Stuff" href="advanced.html" /> 
 </head>
 
-<body class="wy-body-for-nav">
+<body class="wy-body-for-nav"> 
   <div class="wy-grid-for-nav">
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
 
-
-
+          
+          
           <a href="index.html" class="icon icon-home">
             fpclib
           </a>
@@ -214,7 +214,7 @@
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
-
+             
   <section id="globals">
 <h1>Globals<a class="headerlink" href="#globals" title="Link to this heading"></a></h1>
 <nav class="contents local" id="quick-links">
@@ -1202,16 +1202,16 @@
 <dl class="py function">
 <dt class="sig sig-object py" id="fpclib.get_fpdata">
 <span class="sig-prename descclassname"><span class="pre">fpclib.</span></span><span class="sig-name descname"><span class="pre">get_fpdata</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">page</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ignore_errs</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#fpclib.get_fpdata" title="Link to this definition"></a></dt>
-<dd><p>Reads the Flashpoint online datahub at <code class="code docutils literal notranslate"><span class="pre">https://bluemaxima.org/flashpoint/datahub/{page}</span></code> and returns a list of possible values; you can use this to get the most up-to-date tags, platforms, games, or animations.</p>
+<dd><p>Reads the Flashpoint online datahub at <code class="code docutils literal notranslate"><span class="pre">https://flashpointarchive.org/datahub/{page}</span></code> and returns a list of possible values; you can use this to get the most up-to-date tags and platforms. It will automatically check the web archive if the given wiki page is down.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>page</strong> (<em>str</em>) – Can be “Platforms”, “Tags”, “Game_Master_List”, “Animation_Master_List”, or any other page on the datahub with tables in it.</p></li>
+<li><p><strong>page</strong> (<em>str</em>) – Can be “Platforms”, “Tags”, or any other page on the datahub with tables in it.</p></li>
 <li><p><strong>ignore_errs</strong> (<em>bool</em>) – If False, instead of returning None on any errors, those errors will be raised.</p></li>
 </ul>
 </dd>
 <dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p>A list of all Platforms, Tags, Games, Animations, etc. depending on each page.</p>
+<dd class="field-even"><p>A list of all Platforms, Tags, etc. depending on each page, or an empty list on failure.</p>
 </dd>
 <dt class="field-odd">Since 1.3<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
@@ -1724,7 +1724,7 @@
   Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
     <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
     provided by <a href="https://readthedocs.org">Read the Docs</a>.
-
+   
 
 </footer>
         </div>
@@ -1735,7 +1735,7 @@
       jQuery(function () {
           SphinxRtdTheme.Navigation.enable(true);
       });
-  </script>
+  </script> 
 
 </body>
 </html>
